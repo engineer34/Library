@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Library</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+ <body>
+  <!--old admin dashboard code using same css code -->
+  
+<div class="dashboard">
+  <main class=" content">
+   <!-- Add book part -->
+      <section class="add-book">
+        <h3>Add New Book</h3>
+<form id="book-form">
+<input type="text" id="title" placeholder="Book Title" required/>
+<input type="text" id="author" placeholder="Author" required/>
+<input type="number" id="pages" placeholder="Pages" required/>
+<label class="checkbox">
+<input type="checkbox" id="read">
+            Read
+          </label>
+
+          <button type="submit">Add Book</button>
+        </form>
+      </section>
+
+      <!-- Library -->
+      <section class="library">
+        <h3>Your Library</h3>
+
+        <!-- implement book cards here -->
+        <div id="book-container" class="book-grid">
+
+          <!-- Example book card (for reference only) -->
+          <!--
+          <div class="card">
+            <h4>The Hobbit</h4>
+            <p>Author: J.R.R. Tolkien</p>
+            <p>Pages: 295</p>
+            <p>Status: Not Read</p>
+            <div class="card-actions">
+              <button class="toggle-btn">Toggle Read</button>
+              <button class="remove-btn">Remove</button>
+            </div>
+          </div>
+          -->
+
+  </div>
+  </main>
+</div>
+<!--we connect our javascript to our hyml-->
+<script src="script.js"></script>
+</body>
+</html>
+
+  
